@@ -1,6 +1,6 @@
 require "rails"
 
-module Tailwindcss
+module PrettyTailwindcss
   class Engine < ::Rails::Engine
     initializer "tailwindcss.assets" do
       Rails.application.config.assets.precompile += %w[inter-font.css]
@@ -11,7 +11,7 @@ module Tailwindcss
     end
 
     config.app_generators do |g|
-      g.template_engine :tailwindcss
+      g.template_engine :pretty_tailwindcss
     end
   end
 end
