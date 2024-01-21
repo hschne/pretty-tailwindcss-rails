@@ -3,9 +3,6 @@
 require "rails"
 require "rails/test_help"
 
-require "rails/test_unit/reporter"
-Rails::TestUnitReporter.executable = "bin/test"
-
 TAILWINDCSS_TEST_APP_ROOT = Dir.mktmpdir
 Rails::Generators.templates_path << File.join(TAILWINDCSS_TEST_APP_ROOT, "lib/templates")
 

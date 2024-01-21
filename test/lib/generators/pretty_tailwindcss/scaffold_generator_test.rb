@@ -24,7 +24,7 @@ class PrettyTailwindcss::Generators::ScaffoldGeneratorTest < Rails::Generators::
   end
 
   [
-    "lib/templates/tailwindcss/scaffold",
+    "lib/templates/pretty_tailwindcss/scaffold",
     "lib/templates/erb/scaffold"
   ].each do |templates_path|
     test "overriding generator templates in #{templates_path}" do
