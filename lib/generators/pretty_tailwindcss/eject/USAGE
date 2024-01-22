@@ -1,0 +1,7 @@
+Description:
+    Ejects pretty-tailwindcss generators to 'lib/generators' within 
+    your application. This allows you to easily modify generators to
+    your liking
+
+Example:
+    bin/rails generate pretty_tailwindcss:eject
